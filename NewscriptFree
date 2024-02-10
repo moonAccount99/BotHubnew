@@ -1,0 +1,75 @@
+ loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+
+MakeWindow({
+  Hub = {
+    Title = "Bot Hub",
+    Animation = "by :  moonAccount99"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System v Bot Hub",
+    Description = "Bote sua key Perm!",
+    KeyLink = "IYMH2U12D6BXXLKGY09B",
+    Keys = {"IYMH2U12D6BXXLKGY09B"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+ MinimizeButton({
+  Image = "  ",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+ local Main = MakeTab({Name = "Blox Fruits"})
+
+ AddButton(Main, {
+  Name = "PayBack Hub",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/PayBack.lua'))()
+    
+  end
+})
+
+ AddButton(Main, {
+  Name = " vector Hub",
+  Callback = function()
+     _G.Mode = "Eng"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = " Zuesz Hub",
+  Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "REIN Hub",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/ReinLoader'))()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "SPEED Hub",
+  Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX", true))()
+    
+  end
+})
+
+ 
